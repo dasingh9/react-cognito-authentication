@@ -1,4 +1,5 @@
 # Logs
+aws-exports.js
 logs
 *.log
 npm-debug.log*
