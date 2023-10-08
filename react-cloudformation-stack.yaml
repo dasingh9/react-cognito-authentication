@@ -142,4 +142,4 @@ Outputs:
     Value: !GetAtt CFDistribution.DomainName
   CloudFrontDistributionId:
     Description: CloudFront Distribution Id
-    Value: !Ref CloudFrontDistribution
+    Value: !Ref CFDistribution
