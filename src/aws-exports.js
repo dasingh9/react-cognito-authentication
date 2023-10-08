@@ -1,8 +1,8 @@
 const awsexport = {
     "aws_project_region": "ap-southeast-2",
     "aws_cognito_region": "ap-southeast-2",
-    "aws_user_pools_id": "YOUR-COGNITO-POOL-ID",
-    "aws_user_pools_web_client_id": "YOUR-COGNITO-APP-CLIENT-ID",
+    "aws_user_pools_id": "ap-southeast-2_wSmshaLnb",
+    "aws_user_pools_web_client_id": "110c1ufm0a2t3uq624s0lm43us",
     "oauth": {},
     "aws_cognito_username_attributes": [
         "EMAIL"

@@ -39,7 +39,7 @@ jobs:
         id: get_distribution_id
         run: |
           # Use the AWS CLI to describe the CloudFormation stack and extract the DistributionId
-          distribution_id=$(aws cloudformation describe-stacks --stack-name ReactDemoApp1Stack --query 'Stacks[0].Outputs[?OutputKey==`CloudFrontDistributionId`].OutputValue' --output text)
+          distribution_id=$(aws cloudformation describe-stacks --stack-name ReactDemoApp1Stack --query Stacks[0].Outputs[?OutputKey==`CloudFrontDistributionId`].OutputValue --output text)
           echo "::set-output name=distribution_id::$distribution_id"
         
       - name: Invalidate CloudFront Cache

@@ -140,3 +140,6 @@ Outputs:
     Value: !Sub "${ApplicationName}"
   CFDistributionURL:
     Value: !GetAtt CFDistribution.DomainName
+  CloudFrontDistributionId:
+    Description: CloudFront Distribution Id
+    Value: !Ref CloudFrontDistribution
