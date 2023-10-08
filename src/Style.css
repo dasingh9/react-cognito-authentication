@@ -1,3 +1,8 @@
+.ProtectedLayoutChildren {
+    max-width: 800px;
+    margin:auto;
+}
+
 /* basic NavBar CSS, add to App.css and customise as needed */
 .NavBar ul {
     display: flex;

@@ -1,7 +1,7 @@
 import { Auth } from 'aws-amplify';
 import { useState, useEffect } from 'react';
 import { GamesService } from '../services/games-service.js'
-import GamesList from '../components/GamesList.jsx';
+import GamesList from '../components/games/GamesList.jsx';
 import ProtectedLayout from '../components/layouts/ProtectedLayout.jsx';
 
 const gamesService = new GamesService();

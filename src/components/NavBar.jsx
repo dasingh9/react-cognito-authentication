@@ -17,7 +17,7 @@ export default function NavBar() {
     return (
         <>
         <nav className="NavBar"
-            style={{ backgroundColor: theme.background, color: theme.foreground }}>
+            style={{ backgroundColor: "#F2F2FF", color: theme.foreground }}>
             <ul className="menu">
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/sample-protected-page">Sample Protected Page</NavLink></li>

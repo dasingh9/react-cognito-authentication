@@ -1,0 +1,22 @@
+.games-list-container {
+    width: 100%;
+    text-align: left;
+}
+
+.games-search-box {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+}
+.genre-dropdown {
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.platform-dropdown {
+    padding: 5px;
+}
